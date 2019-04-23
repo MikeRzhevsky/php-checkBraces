@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+use MikeR\CheckBraces;
+
+require __DIR__.'/vendor/autoload.php';
+
+echo CheckBraces::main("---(++++)----");
+echo CheckBraces::main("");
+echo CheckBraces::main("before ( middle []) after ");
+echo CheckBraces::main(") (");
+echo CheckBraces::main("} {");
+echo CheckBraces::main("<(   >)");
+echo CheckBraces::main("(  [  <>  ()  ]  <>  )");
+echo CheckBraces::main("   (      [)");
