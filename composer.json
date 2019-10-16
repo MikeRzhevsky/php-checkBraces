@@ -18,5 +18,5 @@
       "MikeR\\" : "src"
     }
   }
-
+  "minimum-stability": "dev"
 }
