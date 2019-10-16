@@ -1,5 +1,6 @@
 {
   "name": "rzhevsky/checkBraces",
+  "version":"1",
   "description": "Check braces function",
   "type": "library",
   "license": "MIT",
